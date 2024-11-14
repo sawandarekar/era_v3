@@ -1,0 +1,11 @@
+write simple 4 layer convolution neural network, to be trained on MNIST. while the training is going on, i want to see the training logs and loss curves on a html page. Use simple python server to do this. After training is done, show model results on 10 randon images picked from MNIST database. Use CUDA for traning. Write all the files, including HowTo.md file describing the steps.
+
+
+I want you to update the train.py file to use tdqm, as i dont want to see soo many logs. Also add logs so I know CUDA id being use.. and add logs for each step. Also use batch side of 512
+
+I want you to update the code, and also show accuracy, both in the logs as well as on the frontend.
+
+i have three different graphs training loss, training accuracy and test accuracy. i want to merge then in one graph
+also want to visualize currect loss and current accuracy as seperate bar
+
+

@@ -1,0 +1,13 @@
+Create new folder assignment-session4-v2 and under that write a simple 4 layer convolutional neural network, to be trained on fasion mnist dataset
+
+frontend interface to allow users to compare 2 models by providing 2 sets of numbers (like 16, 32, 64, or 8, 8, 8, etc.). 
+Then train both models one by one and show their results "overlapped" on the same graphs so we can analyze the differences between 2 models in terms of losses and accuracies. 
+
+To train the dataset i want following parameters and these parameters should come from frontend UI
+- Optimizer Adam or SGD
+- Batch Size
+- Epoch
+
+while training i want to see the training logs, while training use tdqm, as i dont want too many logs, also i want to see the traings log and loss curve stats on frontend, create frontend using bootstrap
+
+after training is done, show model results on randon 10 images picked from fasion mnist dataset, Use CUDE for training. Write all the files including howTo.md file describing steps
